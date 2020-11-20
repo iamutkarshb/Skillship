@@ -5,10 +5,14 @@ I HATE WEBSITE
 ### About us
 nav - home  event about us registrations contact us - completed
 
-main page 
+main page
+
 our vision
+
 what we do
+
 the board - completed
+
 footer
 
 
