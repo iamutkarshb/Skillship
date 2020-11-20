@@ -3,7 +3,7 @@
 I HATE WEBSITE
 
 ### About us
-nav - home  event about us registrations contact us
+nav - home  event about us registrations contact us - completed
 
 main page 
 our vision
