@@ -163,7 +163,7 @@ h6 {
   visibility: hidden;
   padding: 10px 0;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgba(184, 161, 119, 0.25);
   transition: ease all 0.3s;
   border-radius: 5px;
 }
@@ -478,7 +478,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f7fbfe;
+  background-color: #fff0d5;
 }
 
 .section-title {
@@ -519,7 +519,7 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  background: #f3f9fd;
+  background: #fff0d5;
   padding: 10px 0;
   text-align: center;
 }
@@ -722,7 +722,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: #f69a09;
+  background: #fff4e2;
   right: 0;
   top: 0;
   width: 100%;
@@ -745,7 +745,7 @@ section {
 .services .icon i {
   font-size: 36px;
   line-height: 1;
-  color: #fff;
+  color: #111;
 }
 
 .services .title {
@@ -766,7 +766,7 @@ section {
 
 .services .icon-box:hover .title a,
 .services .icon-box:hover .description {
-  color: #fff;
+  color: #111111;
 }
 
 .services .icon-box:hover .icon {
@@ -1271,8 +1271,8 @@ section {
 }
 
 .pricing .recommended .btn-buy:hover {
-  background: #2383c4;
-  border-color: #2383c4;
+  background: #f69a09;
+  border-color: #f69a09;
 }
 
 /*--------------------------------------------------------------
@@ -1285,7 +1285,7 @@ section {
 }
 
 .faq .faq-item i {
-  color: #8bc4ea;
+  color: #d6af6f;
   font-size: 24px;
   float: left;
   line-height: 0;
@@ -1430,7 +1430,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #2383c4;
+  background: #f69a09;
 }
 
 @-webkit-keyframes animate-loading {
