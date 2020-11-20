@@ -5,7 +5,7 @@ I HATE WEBSITE
 ### About us
 nav - home  event about us registrations contact us - completed
 
-main page
+main page - Completed
 
 our vision
 
