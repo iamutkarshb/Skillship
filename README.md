@@ -1,0 +1,23 @@
+# supreme-tribble
+
+I HATE WEBSITE
+
+### About us
+nav - home  event about us registrations contact us
+
+main page 
+our vision
+what we do
+the board
+footer
+
+
+### Events page
+bar bar bar
+search type 
+grid
+
+
+### Design prototype = optional
+
+### Contact us ===  Reg page
