@@ -8,7 +8,7 @@ nav - home  event about us registrations contact us
 main page 
 our vision
 what we do
-the board
+the board - completed
 footer
 
 
