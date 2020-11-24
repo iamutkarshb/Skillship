@@ -1,6 +1,4 @@
-# supreme-tribble
-
-I HATE WEBSITE
+# Skillship
 
 ### About us
 nav - home  event about us registrations contact us - completed
