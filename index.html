@@ -31,15 +31,7 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
-    <style>
-    .hero-image {
-  background-image: url("assets/img/hero.jpg"); /* The image used */
-  color: #cccccc; /* Used if the image is unavailable */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-}
-    </style>
+    
   </head>
 
   <body >
@@ -47,19 +39,19 @@
     <header id="header" class="fixed-top d-flex align-items-center">
       <div class="container d-flex align-items-center">
         <div class="logo mr-auto">
-          <h1 class="text-light">
+          <!--<h1 class="text-light">
             <a href="index.html"><span>Skillship</span></a>
-          </h1>
-          <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+          </h1>-->
+          <a href="index.html"><img src="assets/img/navbar.png" alt="" class="img-fluid"></a>
         </div>
 
         <nav class="nav-menu d-none d-lg-block">
           <ul>
-            <li class="active"><a href="index.html">Home</a></li>
+            <li class="active"><a href="#hero">Home</a></li>
+            <li><a href="#more-services">About Us</a></li>
             <li><a href="#portfolio">Event</a></li>
             <li ><a href="registration.html">Registration</a></li>
-            <li><a href="Contact-us.html">Contact Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
           </ul>
         </nav>
         <!-- .nav-menu -->
@@ -79,8 +71,8 @@
             <a href="#about" class="btn-get-started scrollto">Get Started</a>
           </div>
         </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img align-self-center" data-aos="fade-left" data-aos-delay="200" style="height:428px; text-align: center">
-          <img src="assets/img/hero-logo.png" class="img-fluid animated" alt="" style="height:428px">
+        <div class="col-lg-6 order-1 order-lg-2 hero-img align-self-center" data-aos="fade-up" data-aos-delay="200" style="height:428px; text-align: center">
+          <img src="assets/img/Logo.png" class="img-fluid animated" alt="" style="height:428px">
         </div>
       </div>
     </div>
@@ -189,16 +181,16 @@
       <!-- End Clients Section -->
 
       <!-- ======= Portfolio Section ======= -->
-      <section id="portfolio" class="portfolio">
+      <section id="portfolio" class="portfolio" style="background:#fff0d5">
         <div class="container">
-          <div class="section-title" data-aos="fade-up" style="padding-bottom:20px">
+          <div class="section-title" data-aos="fade-up" style="margin-bottom:20px">
             <h2>Our Event</h2>
             <p>
               Magnam dolores commodi suscipit eius consequatur ex aliquid fug
             </p>
           </div>
           <div class="row" data-aos="fade-up" data-aos-delay="200">
-            <div class="col-lg-8 col-md-12 d-flex mr-auto align-middle">
+            <div class="col-lg-8 col-md-12 d-flex mr-auto align-middle"  style="margin-bottom:20px">
               <ul id="portfolio-flters">
                 <li
                   data-filter="*"
@@ -213,7 +205,7 @@
                 <li data-filter=".filter-card">Past events</li>
               </ul>
             </div>
-            <div class="col-lg-4 col-md-12" style="text-align: right">
+            <div class="col-lg-4 col-md-12" style="text-align: right" style="margin-bottom:20px">
               <form
                 class="form-inline my-2 my-lg-0"
                 id="search-form"
@@ -612,6 +604,157 @@
       </section>
       <!-- End Services Section -->
 
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact" style="margin-top: 60px">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-5 col-md-12 mx-auto"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="contact-about" style="text-align: center">
+                <img src="./assets/img/contact.JPG" width="100%" />
+
+                <div class="social-links" style="padding-top: 10px">
+                  
+                  <a href="#" class="twitter"
+                    ><i class="icofont-twitter"></i
+                  ></a>
+                  <a href="#" class="facebook"
+                    ><i class="icofont-facebook"></i
+                  ></a>
+                  <a href="#" class="instagram"
+                    ><i class="icofont-instagram"></i
+                  ></a>
+                  <a href="#" class="linkedin"
+                    ><i class="icofont-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-6 col-md-12"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <form
+                action="forms/contact.php"
+                method="post"
+                role="form"
+                class="php-email-form"
+              >
+                <div class="row">
+                  <div class="col-md-6" style="padding-top: 30px">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        name="name"
+                        class="form-control"
+                        id="name"
+                        placeholder="Your Name"
+                        data-rule="minlen:4"
+                        data-msg="Please enter at least 4 chars"
+                      />
+                      <div class="validate"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-6" style="padding-top: 30px">
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        class="form-control"
+                        name="email"
+                        id="email"
+                        placeholder="Your Email"
+                        data-rule="email"
+                        data-msg="Please enter a valid email"
+                      />
+                      <div class="validate"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-6" style="padding-top: 30px">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        name="name"
+                        class="form-control"
+                        id="name"
+                        placeholder="Your Name"
+                        data-rule="minlen:4"
+                        data-msg="Please enter at least 4 chars"
+                      />
+                      <div class="validate"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-6" style="padding-top: 30px">
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        class="form-control"
+                        name="email"
+                        id="email"
+                        placeholder="Your Email"
+                        data-rule="email"
+                        data-msg="Please enter a valid email"
+                      />
+                      <div class="validate"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-12" style="padding-top: 30px">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="subject"
+                        id="subject"
+                        placeholder="Subject"
+                        data-rule="minlen:4"
+                        data-msg="Please enter at least 8 chars of subject"
+                      />
+                      <div class="validate"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-12" style="padding-top: 30px">
+                    <div class="form-group">
+                      <textarea
+                        class="form-control"
+                        name="message"
+                        rows="5"
+                        data-rule="required"
+                        data-msg="Please write something for us"
+                        placeholder="Message"
+                      ></textarea>
+                      <div class="validate"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-12" style="padding-top: 30px">
+                    <div class="mb-3">
+                      <div class="loading">Loading</div>
+                      <div class="error-message"></div>
+                      <div class="sent-message">
+                        Your message has been sent. Thank you!
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <button
+                        class="btn btn-primary btn-lg btn-block"
+                        type="submit"
+                        style="border-radius: 10px"
+                      >
+                        Send Message
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+
     <!-- ======= Footer ======= -->
     <footer id="footer" style="background-color: #fff0d5">
       <div class="container">
@@ -638,8 +781,28 @@
     </footer>
     <!-- End Footer -->
 
+
     <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
+    <script>
+      (function () {
+        const searchBox = document.querySelector("#search-item");
+        const storeItems = document.querySelectorAll(".store-item");
+
+        searchBox.addEventListener("keyup", (e) => {
+          const searchFilter = e.target.value.toLowerCase().trim();
+          //display only items that contain filter input
+
+          storeItems.forEach((item) => {
+            if (item.textContent.includes(searchFilter)) {
+              item.style.display = "block";
+            } else {
+              item.style.display = "none";
+            }
+          });
+        });
+      })();
+    </script>
     <!-- Vendor JS Files -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
